@@ -5,10 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { TabViewModule } from 'primeng/tabview';
+import { CardapioComponent } from './cardapio/cardapio.component';
+import { BoxComponent } from './box/box.component';
+import { DeliveryComponent } from './delivery/delivery.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CardapioComponent,
+    BoxComponent,
+    DeliveryComponent
   ],
   imports: [
     BrowserModule,

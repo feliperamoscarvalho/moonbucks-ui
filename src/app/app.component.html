@@ -33,7 +33,7 @@
     height: 60px;
     display: flex;
     align-items: center;
-    background-color: #1976d2;
+    background-color: #3CB371;
     color: white;
     font-weight: 600;
   }
@@ -58,7 +58,7 @@
     max-width: 960px;
     flex-direction: column;
     align-items: center;
-    background-color: #B0C4DE;
+    background-color: #00FA9A;
   }
 
   .content2 {
@@ -322,21 +322,21 @@
                 <i class="pi pi-list"></i>
                 <span>&nbsp;Cardápio</span>
             </ng-template>
-            Conteudo do cardapio
+            <app-cardapio></app-cardapio>
         </p-tabPanel>
         <p-tabPanel header="Box">
             <ng-template pTemplate = "header">
                 <i class="pi pi-shopping-cart"></i>
                 <span>&nbsp;Box</span>
             </ng-template>
-            Conteudo do box
+            <app-box></app-box>
         </p-tabPanel>
         <p-tabPanel header="Delivery">
             <ng-template pTemplate = "header">
                 <i class="pi pi-inbox"></i>
                 <span>&nbsp;Delivery</span>
             </ng-template>
-            Conteudo do delivery
+            <app-delivery></app-delivery>
         </p-tabPanel>
     </p-tabView>
 
